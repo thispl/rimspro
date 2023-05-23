@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include rimspro *.css
+recursive-include rimspro *.csv
+recursive-include rimspro *.html
+recursive-include rimspro *.ico
+recursive-include rimspro *.js
+recursive-include rimspro *.json
+recursive-include rimspro *.md
+recursive-include rimspro *.png
+recursive-include rimspro *.py
+recursive-include rimspro *.svg
+recursive-include rimspro *.txt
+recursive-exclude rimspro *.pyc
