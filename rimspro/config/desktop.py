@@ -3,10 +3,10 @@ from frappe import _
 def get_data():
 	return [
 		{
-			"module_name": "yes",
+			"module_name": "RIMSPRO",
 			"color": "grey",
 			"icon": "octicon octicon-file-directory",
 			"type": "module",
-			"label": _("yes")
+			"label": _("RIMSPRO")
 		}
 	]

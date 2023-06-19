@@ -1,6 +1,6 @@
-## yes
+## RIMSPRO
 
-Rimspro
+Frappe App for Religious Institutes Mgmt
 
 #### License
 

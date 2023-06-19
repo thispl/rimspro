@@ -1,12 +1,12 @@
 from . import __version__ as app_version
 
 app_name = "rimspro"
-app_title = "yes"
-app_publisher = "Teampro"
-app_description = "Rimspro"
+app_title = "RIMSPRO"
+app_publisher = "TEAMPRO"
+app_description = "Frappe App for Religious Institutes Mgmt"
 app_icon = "octicon octicon-file-directory"
 app_color = "grey"
-app_email = "hr@groupteampro.com"
+app_email = "erp@groupteampro.com"
 app_license = "MIT"
 
 # Includes in <head>

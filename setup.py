@@ -9,9 +9,9 @@ from rimspro import __version__ as version
 setup(
 	name="rimspro",
 	version=version,
-	description="Rimspro",
-	author="Teampro",
-	author_email="hr@groupteampro.com",
+	description="Frappe App for Religious Institutes Mgmt",
+	author="TEAMPRO",
+	author_email="erp@groupteampro.com",
 	packages=find_packages(),
 	zip_safe=False,
 	include_package_data=True,
