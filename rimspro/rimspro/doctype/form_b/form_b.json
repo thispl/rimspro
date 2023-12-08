@@ -1,0 +1,292 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "FORM B.####",
+ "creation": "2023-06-19 11:45:05.503774",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "form_a",
+  "parish_name",
+  "from_parish",
+  "marriage_proposal_date",
+  "priest_name",
+  "column_break_2",
+  "date",
+  "mrg_date",
+  "to_parish",
+  "marriage_advertisement_dates",
+  "phone_number",
+  "section_break_2",
+  "name1",
+  "baptism_name1",
+  "date_of_birth1",
+  "baptism_date1",
+  "name_of_parents1",
+  "house_name1",
+  "parish_1",
+  "diocese1",
+  "ritechurch1",
+  "column_break_19",
+  "bride_name",
+  "baptism_name",
+  "data_15",
+  "baptism_date",
+  "name_of_parents",
+  "house_name",
+  "parish",
+  "diocese",
+  "ritechurch",
+  "section_break_34",
+  "remarks",
+  "section_break_30",
+  "vicar_name"
+ ],
+ "fields": [
+  {
+   "fieldname": "form_a",
+   "fieldtype": "Link",
+   "label": "Form A Number",
+   "options": "Form A"
+  },
+  {
+   "fetch_from": "form_a.parish_name",
+   "fieldname": "parish_name",
+   "fieldtype": "Link",
+   "label": "Parish Name",
+   "options": "Company",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "form_a.from_parish",
+   "fieldname": "from_parish",
+   "fieldtype": "Link",
+   "label": "From Parish",
+   "options": "Company",
+   "read_only": 1
+  },
+  {
+   "fieldname": "marriage_proposal_date",
+   "fieldtype": "Date",
+   "label": "Marriage Proposal Date"
+  },
+  {
+   "fieldname": "priest_name",
+   "fieldtype": "Data",
+   "label": "Priest Name"
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "mrg_date",
+   "fieldtype": "Date",
+   "label": "Marriage Date"
+  },
+  {
+   "fetch_from": "form_a.to_parish",
+   "fieldname": "to_parish",
+   "fieldtype": "Link",
+   "label": "To Parish",
+   "options": "Company",
+   "read_only": 1
+  },
+  {
+   "fieldname": "marriage_advertisement_dates",
+   "fieldtype": "Date",
+   "label": "Marriage Advertisement Date"
+  },
+  {
+   "fetch_from": "form_a.phone_no",
+   "fieldname": "phone_number",
+   "fieldtype": "Data",
+   "label": "Phone Number",
+   "options": "Phone",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fetch_from": "form_a.name1",
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": " Groom Name",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "form_a.baptism_name1",
+   "fieldname": "baptism_name1",
+   "fieldtype": "Data",
+   "label": "Baptism Name"
+  },
+  {
+   "fetch_from": "form_a.date_of_birth1",
+   "fieldname": "date_of_birth1",
+   "fieldtype": "Date",
+   "label": "Date of birth",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "form_a.baptism_date1",
+   "fieldname": "baptism_date1",
+   "fieldtype": "Date",
+   "label": "Baptism Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "name_of_parents1",
+   "fieldtype": "Data",
+   "label": "Name of Parents"
+  },
+  {
+   "fetch_from": "form_a.house_name1",
+   "fieldname": "house_name1",
+   "fieldtype": "Data",
+   "label": "House Name",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "form_a.parish_1",
+   "fieldname": "parish_1",
+   "fieldtype": "Link",
+   "label": "Parish ",
+   "options": "Company",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "form_a.diocese1",
+   "fieldname": "diocese1",
+   "fieldtype": "Data",
+   "label": "Diocese"
+  },
+  {
+   "fetch_from": "form_a.ritechurch1",
+   "fieldname": "ritechurch1",
+   "fieldtype": "Data",
+   "label": "Rite/church",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_19",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "form_a.bride_name",
+   "fieldname": "bride_name",
+   "fieldtype": "Data",
+   "label": " Bride Name",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "form_a.baptism_name",
+   "fieldname": "baptism_name",
+   "fieldtype": "Data",
+   "label": "Baptism Name",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "form_a.data_15",
+   "fieldname": "data_15",
+   "fieldtype": "Date",
+   "label": "Date of birth",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "form_a.baptism_date",
+   "fieldname": "baptism_date",
+   "fieldtype": "Date",
+   "label": "Baptism Date",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "form_a.name_of_parents1",
+   "fieldname": "name_of_parents",
+   "fieldtype": "Data",
+   "label": "Name of Parents",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "form_a.house_name",
+   "fieldname": "house_name",
+   "fieldtype": "Data",
+   "label": "House Name",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "form_a.parish",
+   "fieldname": "parish",
+   "fieldtype": "Link",
+   "label": "Parish ",
+   "options": "Company",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "form_a.diocese",
+   "fieldname": "diocese",
+   "fieldtype": "Data",
+   "label": "Diocese",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "form_a.ritechurch",
+   "fieldname": "ritechurch",
+   "fieldtype": "Data",
+   "label": "Rite/church",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_34",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fetch_from": "form_a.remarks",
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "section_break_30",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "form_a.vicar_name",
+   "fieldname": "vicar_name",
+   "fieldtype": "Data",
+   "label": "Vicar Name",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-06-29 18:19:12.427435",
+ "modified_by": "Administrator",
+ "module": "RIMSPRO",
+ "name": "Form B",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

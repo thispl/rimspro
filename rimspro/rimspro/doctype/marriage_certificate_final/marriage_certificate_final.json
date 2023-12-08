@@ -1,0 +1,193 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "MC -.#####",
+ "creation": "2023-06-19 11:44:10.676289",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "form_a",
+  "date_of_marriage",
+  "column_break_2",
+  "parish_name",
+  "place_of_marriage",
+  "section_break_3",
+  "name1",
+  "baptism_name1",
+  "name_of_parents1",
+  "house_name1",
+  "parish_1",
+  "diocese1",
+  "blessed_by",
+  "vicar_name",
+  "date_of_issue",
+  "column_break_9",
+  "bride_name",
+  "baptism_name",
+  "name_of_parents",
+  "house_name",
+  "parish",
+  "diocese",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "form_a",
+   "fieldtype": "Link",
+   "label": "Form A Number",
+   "options": "Form A"
+  },
+  {
+   "fieldname": "date_of_marriage",
+   "fieldtype": "Date",
+   "label": "Date of Marriage"
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "St. Mary's Church Vennoor",
+   "fetch_from": "form_a.parish_name",
+   "fieldname": "parish_name",
+   "fieldtype": "Link",
+   "label": "Parish Name",
+   "options": "Company"
+  },
+  {
+   "fieldname": "place_of_marriage",
+   "fieldtype": "Data",
+   "label": "Place of Marriage"
+  },
+  {
+   "fieldname": "section_break_3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fetch_from": "form_a.name1",
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": " Groom Name"
+  },
+  {
+   "fetch_from": "form_a.baptism_name1",
+   "fieldname": "baptism_name1",
+   "fieldtype": "Data",
+   "label": "Baptism Name"
+  },
+  {
+   "fetch_from": "form_a.name_of_parents1",
+   "fieldname": "name_of_parents1",
+   "fieldtype": "Data",
+   "label": "Name of Parents"
+  },
+  {
+   "fetch_from": "form_a.house_name1",
+   "fieldname": "house_name1",
+   "fieldtype": "Data",
+   "label": "House Name"
+  },
+  {
+   "fetch_from": "form_a.parish_1",
+   "fieldname": "parish_1",
+   "fieldtype": "Data",
+   "label": "Parish "
+  },
+  {
+   "fetch_from": "form_a.diocese1",
+   "fieldname": "diocese1",
+   "fieldtype": "Data",
+   "label": "Diocese"
+  },
+  {
+   "fieldname": "blessed_by",
+   "fieldtype": "Data",
+   "label": "Blessed By"
+  },
+  {
+   "fetch_from": "form_a.vicar_name",
+   "fieldname": "vicar_name",
+   "fieldtype": "Data",
+   "label": "Vicar Name"
+  },
+  {
+   "fieldname": "date_of_issue",
+   "fieldtype": "Date",
+   "label": "Date Of Issue",
+   "options": "Today"
+  },
+  {
+   "fieldname": "column_break_9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "form_a.bride_name",
+   "fieldname": "bride_name",
+   "fieldtype": "Data",
+   "label": " Bride Name"
+  },
+  {
+   "fetch_from": "form_a.baptism_name",
+   "fieldname": "baptism_name",
+   "fieldtype": "Data",
+   "label": "Baptism Name"
+  },
+  {
+   "fetch_from": "form_a.name_of_parents",
+   "fieldname": "name_of_parents",
+   "fieldtype": "Data",
+   "label": "Name of Parents"
+  },
+  {
+   "fetch_from": "form_a.house_name",
+   "fieldname": "house_name",
+   "fieldtype": "Data",
+   "label": "House Name"
+  },
+  {
+   "fetch_from": "form_a.parish",
+   "fieldname": "parish",
+   "fieldtype": "Link",
+   "label": "Parish ",
+   "options": "Company"
+  },
+  {
+   "fetch_from": "form_a.remarks",
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fetch_from": "form_a.diocese",
+   "fieldname": "diocese",
+   "fieldtype": "Data",
+   "label": "Diocese"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-07-17 11:18:56.975491",
+ "modified_by": "Administrator",
+ "module": "RIMSPRO",
+ "name": "Marriage Certificate Final",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "search_fields": "name1",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "name1"
+}

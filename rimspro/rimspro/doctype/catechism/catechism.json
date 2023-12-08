@@ -1,0 +1,57 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "CA.####",
+ "creation": "2023-06-22 11:09:11.631970",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "class_name",
+  "parish_name",
+  "student_details"
+ ],
+ "fields": [
+  {
+   "fieldname": "class_name",
+   "fieldtype": "Data",
+   "label": "Class Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "parish_name",
+   "fieldtype": "Link",
+   "label": "Parish Name",
+   "options": "Company"
+  },
+  {
+   "fieldname": "student_details",
+   "fieldtype": "Table",
+   "label": "Student Details",
+   "options": "Catechism Details"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-06-29 18:20:16.408469",
+ "modified_by": "Administrator",
+ "module": "RIMSPRO",
+ "name": "Catechism",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

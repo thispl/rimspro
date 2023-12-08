@@ -1,0 +1,78 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "FM.####",
+ "creation": "2023-06-19 11:38:52.088158",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "relationship_wih_the_family",
+  "date_of_birth",
+  "baptism",
+  "column_break_5",
+  "first_holy_communion",
+  "confirmation",
+  "marriage"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name"
+  },
+  {
+   "fieldname": "relationship_wih_the_family",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Relationship wih the family "
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date of birth"
+  },
+  {
+   "fieldname": "baptism",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Baptism"
+  },
+  {
+   "fieldname": "first_holy_communion",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "First Holy communion"
+  },
+  {
+   "fieldname": "confirmation",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Confirmation"
+  },
+  {
+   "fieldname": "marriage",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Marriage"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-06-30 09:58:34.904862",
+ "modified_by": "Administrator",
+ "module": "RIMSPRO",
+ "name": "Family Member Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

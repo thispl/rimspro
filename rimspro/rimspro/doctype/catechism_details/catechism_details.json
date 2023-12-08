@@ -1,0 +1,108 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "CD.####",
+ "creation": "2023-06-19 11:39:24.736594",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "student_name",
+  "father_name",
+  "mother_name",
+  "house_name",
+  "date_of_birth",
+  "column_break_6",
+  "baptism_name",
+  "baptism_date",
+  "name_of_parish",
+  "refno",
+  "transfer_certificate",
+  "section_break_12",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "student_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Student Name"
+  },
+  {
+   "fieldname": "father_name",
+   "fieldtype": "Data",
+   "label": "Father Name"
+  },
+  {
+   "fieldname": "mother_name",
+   "fieldtype": "Data",
+   "label": "Mother Name"
+  },
+  {
+   "fieldname": "house_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "House name"
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date of birth"
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "baptism_name",
+   "fieldtype": "Data",
+   "label": "Baptism Name"
+  },
+  {
+   "fieldname": "baptism_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Baptism date"
+  },
+  {
+   "fieldname": "name_of_parish",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": " Name of parish "
+  },
+  {
+   "fieldname": "refno",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Ref.No"
+  },
+  {
+   "fieldname": "transfer_certificate",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Transfer certificate "
+  },
+  {
+   "fieldname": "section_break_12",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Remarks"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-06-29 17:26:49.346573",
+ "modified_by": "Administrator",
+ "module": "RIMSPRO",
+ "name": "Catechism Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

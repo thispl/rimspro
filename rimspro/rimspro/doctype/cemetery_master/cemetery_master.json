@@ -1,0 +1,109 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "Cemetery.####",
+ "creation": "2023-06-19 11:40:30.953234",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "parish_name",
+  "person_name",
+  "date",
+  "father__husband_name",
+  "unit_name",
+  "column_break_6",
+  "death_date",
+  "tomb_kuzhi",
+  "tomb_kuzhi_number",
+  "house_name",
+  "section_break_11",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "parish_name",
+   "fieldtype": "Link",
+   "label": "Parish Name",
+   "options": "Company"
+  },
+  {
+   "fieldname": "person_name",
+   "fieldtype": "Data",
+   "label": "Person Name"
+  },
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "father__husband_name",
+   "fieldtype": "Data",
+   "label": "Father / Husband Name"
+  },
+  {
+   "fieldname": "unit_name",
+   "fieldtype": "Data",
+   "label": "Unit name"
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "death_date",
+   "fieldtype": "Date",
+   "label": "Burial Date"
+  },
+  {
+   "fieldname": "tomb_kuzhi",
+   "fieldtype": "Data",
+   "label": "Tomb/ Kuzhi"
+  },
+  {
+   "fieldname": "tomb_kuzhi_number",
+   "fieldtype": "Data",
+   "label": "Tomb /Kuzhi Number"
+  },
+  {
+   "fieldname": "house_name",
+   "fieldtype": "Data",
+   "label": "House name"
+  },
+  {
+   "fieldname": "section_break_11",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-10-09 17:26:30.574844",
+ "modified_by": "Administrator",
+ "module": "RIMSPRO",
+ "name": "Cemetery Master",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "person_name"
+}

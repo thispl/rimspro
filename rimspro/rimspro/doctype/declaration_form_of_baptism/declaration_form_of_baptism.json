@@ -1,0 +1,101 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "DF-.#####",
+ "creation": "2023-06-19 11:41:15.673059",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "parish_name1",
+  "name1",
+  "parish_name",
+  "to_parish_name",
+  "baptism_date",
+  "column_break_2",
+  "date",
+  "mother_name",
+  "father_name",
+  "vicar"
+ ],
+ "fields": [
+  {
+   "fieldname": "parish_name1",
+   "fieldtype": "Link",
+   "label": "Parish Name",
+   "options": "Company"
+  },
+  {
+   "fieldname": "parish_name",
+   "fieldtype": "Link",
+   "label": "From Parish Name",
+   "options": "Company"
+  },
+  {
+   "fieldname": "to_parish_name",
+   "fieldtype": "Link",
+   "label": "To Parish Name",
+   "options": "Company"
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "mother_name",
+   "fieldtype": "Data",
+   "label": "Mother Name"
+  },
+  {
+   "fieldname": "father_name",
+   "fieldtype": "Data",
+   "label": "Father Name"
+  },
+  {
+   "fieldname": "vicar",
+   "fieldtype": "Data",
+   "label": "Vicar"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "baptism_date",
+   "fieldtype": "Date",
+   "label": "Baptism Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-07-07 22:44:52.499560",
+ "modified_by": "Administrator",
+ "module": "RIMSPRO",
+ "name": "Declaration Form of Baptism",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "search_fields": "name1",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "name1"
+}

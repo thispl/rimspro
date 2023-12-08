@@ -1,0 +1,116 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "PC - .####",
+ "creation": "2023-06-19 11:45:37.788460",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "parish_name",
+  "aathmasthithi_number",
+  "head_of_the_family",
+  "column_break_2",
+  "date",
+  "diocese_name",
+  "section_break_4",
+  "family_details",
+  "section_break_8",
+  "vicar",
+  "column_break_11",
+  "date_of_issue",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "parish_name",
+   "fieldtype": "Link",
+   "label": "Parish Name",
+   "options": "Company",
+   "unique": 1
+  },
+  {
+   "fieldname": "aathmasthithi_number",
+   "fieldtype": "Link",
+   "label": "Aathmasthithi Number ",
+   "options": "Aathmasthithi Book"
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "diocese_name",
+   "fieldtype": "Data",
+   "label": "Diocese Name"
+  },
+  {
+   "fieldname": "section_break_4",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "family_details",
+   "fieldtype": "Table",
+   "label": "Family Member Detail",
+   "options": "Family Member Details"
+  },
+  {
+   "fieldname": "section_break_8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "vicar",
+   "fieldtype": "Data",
+   "label": "Vicar"
+  },
+  {
+   "fieldname": "column_break_11",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date_of_issue",
+   "fieldtype": "Data",
+   "label": "Date of Issue"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fetch_from": "aathmasthithi_number.name_of_the_head_of_family",
+   "fieldname": "head_of_the_family",
+   "fieldtype": "Data",
+   "label": "Head of the family"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-06-29 20:42:53.381071",
+ "modified_by": "Administrator",
+ "module": "RIMSPRO",
+ "name": "Parochial Change",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

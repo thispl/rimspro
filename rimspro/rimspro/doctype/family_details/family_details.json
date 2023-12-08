@@ -1,0 +1,162 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "FD.####",
+ "creation": "2023-06-19 11:44:28.046446",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name_of_family_members",
+  "relationship_with_family_members",
+  "date_of_birth",
+  "baptism_name",
+  "baptism_nmae",
+  "baptism_date",
+  "baptism_reference_no_volpage_noyearno",
+  "holy_communion_date",
+  "holy_communion_reference_no_volpage_noyearno",
+  "column_break_7",
+  "confirmation_date",
+  "confirmation_reference_no_volpage_noyearno",
+  "ref",
+  "marriage__asceticism_date",
+  "marriage_reference_no_volpage_noyearno",
+  "ref_n",
+  "death_date",
+  "death_reference_no_volpage_noyearno",
+  "education"
+ ],
+ "fields": [
+  {
+   "fieldname": "name_of_family_members",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Name of family members"
+  },
+  {
+   "fieldname": "relationship_with_family_members",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Relationship with family members"
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date of birth"
+  },
+  {
+   "fetch_from": "baptism_name.date_of_baptism",
+   "fieldname": "baptism_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Baptism date ",
+   "read_only": 1
+  },
+  {
+   "fieldname": "holy_communion_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Holy Communion date "
+  },
+  {
+   "fieldname": "column_break_7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "confirmation_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Confirmation date"
+  },
+  {
+   "fieldname": "ref",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Marriage Certficate Number",
+   "options": "Marriage Certificate Final"
+  },
+  {
+   "fetch_from": "ref.date_of_marriage",
+   "fieldname": "marriage__asceticism_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Marriage / Asceticism Date ",
+   "read_only": 1
+  },
+  {
+   "fieldname": "ref_n",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Death Certificate",
+   "options": "Death Certificate"
+  },
+  {
+   "fetch_from": "ref_n.date_of_death",
+   "fieldname": "death_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Death date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "education",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Education",
+   "options": "Education Details"
+  },
+  {
+   "fieldname": "baptism_name",
+   "fieldtype": "Link",
+   "label": "Baptism",
+   "options": "Birth Confirmation  Certificate"
+  },
+  {
+   "fetch_from": "baptism_name.baptism_name",
+   "fieldname": "baptism_nmae",
+   "fieldtype": "Data",
+   "label": "Baptism Name"
+  },
+  {
+   "fieldname": "baptism_reference_no_volpage_noyearno",
+   "fieldtype": "Data",
+   "label": "Baptism Reference No. (Vol/Page No./Year/No.)"
+  },
+  {
+   "fieldname": "holy_communion_reference_no_volpage_noyearno",
+   "fieldtype": "Data",
+   "label": "Holy Communion Reference No. (Vol/Page No./Year/No.)"
+  },
+  {
+   "fieldname": "confirmation_reference_no_volpage_noyearno",
+   "fieldtype": "Data",
+   "label": "Confirmation Reference No. (Vol/Page No./Year/No.)"
+  },
+  {
+   "fieldname": "marriage_reference_no_volpage_noyearno",
+   "fieldtype": "Data",
+   "label": "Marriage Reference No. (Vol/Page No./Year/No.)"
+  },
+  {
+   "fieldname": "death_reference_no_volpage_noyearno",
+   "fieldtype": "Data",
+   "label": "Death Reference No. (Vol/Page No./Year/No.)"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-07-24 10:05:08.392926",
+ "modified_by": "Administrator",
+ "module": "RIMSPRO",
+ "name": "Family Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
